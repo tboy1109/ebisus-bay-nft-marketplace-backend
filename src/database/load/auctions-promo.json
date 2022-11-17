@@ -1,0 +1,50 @@
+[
+    {
+        "id": 4,
+        "hash": "0x65c50bf961bd08cd0391da0ed8c3ad3f447f795e9a9c778b8239d71ba485b989",
+        "title": "Horse 1",
+        "description": "The Lazy Horse Race Club will be supporting SaddleUp!, a charity based out of Nashville, TN. Specifically, proceeds will be donated to the Lauren and Charlotte Uribe Pony Fund. This fund's purpose is to provide 10 therapy horses to help replenish SaddleUp!'s therapy herd, helping to provide thousands of additional therapy sessions for children and adults with intellectual or developmental disabilities.",
+        "link": "https://www.saddleupnashville.org/how-you-can-help/",
+        "imgAvatar": "/img/collections/lazyhorse/avatar.png"
+    },
+    {
+        "id": 5,
+        "hash": "0x79693dad55b43967d6fd9e0e3b598501e45451315e1190804c892cbefeace696",
+        "title": "Horse 2",
+        "description": "The Lazy Horse Race Club will be supporting SaddleUp!, a charity based out of Nashville, TN. Specifically, proceeds will be donated to the Lauren and Charlotte Uribe Pony Fund. This fund's purpose is to provide 10 therapy horses to help replenish SaddleUp!'s therapy herd, helping to provide thousands of additional therapy sessions for children and adults with intellectual or developmental disabilities.",
+        "link": "https://www.saddleupnashville.org/how-you-can-help/",
+        "imgAvatar": "/img/collections/lazyhorse/avatar.png"
+    },
+    {
+        "id": 2,
+        "hash": "0xa911aa2cfea3908f0a0dd1f95f4e249cd1786860a80e41c481d690ebc81e54c8",
+        "title": "Croskull 1",
+        "description": "The CroSkull team will be supporting Cancer Research UK, a charity within England and Wales. Proceeds will be donated and used to provide labs with research chemicals, continue operation of mobile awareness units to provide early diagnosis to visitors, provide free cancer clinical trials to those in need, tools for advanced DNA sequencing, and chat support for those emotionally affected by their own or a loved one's diagnosis and treatment.",
+        "link": "https://www.cancerresearchuk.org/about-cancer/bone-cancer",
+        "imgAvatar": "/img/collections/croskull/avatar.jpg"
+    },
+    {
+        "id": 3,
+        "hash": "0x75da759eb448b1ec6648dba4e7f99f844f27246a8009fd8f0530e65a804f9d12",
+        "title": "Croskull 2",
+        "description": "The CroSkull team will be supporting Cancer Research UK, a charity within England and Wales. Proceeds will be donated and used to provide labs with research chemicals, continue operation of mobile awareness units to provide early diagnosis to visitors, provide free cancer clinical trials to those in need, tools for advanced DNA sequencing, and chat support for those emotionally affected by their own or a loved one's diagnosis and treatment.",
+        "link": "https://www.cancerresearchuk.org/about-cancer/bone-cancer",
+        "imgAvatar": "/img/collections/croskull/avatar.jpg"
+    },
+    {
+        "id": 1,
+        "hash": "0xdebdc7f8a041ad463e5a7c4dcba6817114dd10059a989a68734c3219de0047bb",
+        "title": "Chimps",
+        "description": "The Cronos Chimp Club will be supporting the Jane Goodall Institute, a charity who protects chimpanzees and inspires people to conserve the natural world we all share. Our donation will go towards seeing our fellow chimps are looked after, healthy and living a wonderful life. JGI also works towards improving the health of women and education of girls; cultivating local livelihoods in harmony with nature; and helping young people become the informed generation of conservation leaders.",
+        "link": "https://secure.janegoodall.org/give/328356/#!/donation/checkout",
+        "imgAvatar": "/img/collections/chimps/avatar.png"
+    },
+    {
+        "id": 0,
+        "hash": "0x2e72dbba4fe290a8b1ab03983fab4fe1273701193866e2217a63c3cf7fb4adff",
+        "title": "Space Crystal Unicorns",
+        "description": "Hello everyone, \n\nI have always had a passion for art which most already know, but what most don’t know is that I am very fond of equestrian sports. Growing up I self-taught to become an equestrian rider. I have also judged equestrian events and competitions and organized charity festivals in support of children with disabilities. \n\nRiding horses can be very healing for children and their psycho-emotional state and for those who become more involved, assists with muscle development. I used to coach children for free but have retired from this. However, I keep in close contact with the equestrian club in my hometown and occasionally still assist by running the group classes for children. I also financially support and support them with media coverage, assisting with fund raising to help kids receive this amazing and free therapy with horses.\n\nTo support the equestrian club and children, I am auctioning a limited-edition 1:1 ‘Rare Heart Hodler’ NFT. It also comes with a T-shirt and an autographed card from myself. Additionally, 10 holders of the 'Heart Hodler' from the open edition will be randomly selected to receive a physical autographed card from myself",
+        "link": "http://www.ritmclub.ru/",
+        "imgAvatar": "/img/collections/barbara/spacecrystalunicorns/avatar.jpg"
+    }
+]

@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 4,
+  "editor.quickSuggestionsDelay": 2000,
+  "editor.hover.delay": 2000,
+
+  "liveServer.settings.useBrowserPreview": false,
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.port": 8888,
+  "liveServer.settings.showOnStatusbar": true,
+
+
+  "rest-client.previewResponseInUntitledDocument": true,
+
+  "prettier.semi": false,
+  
+  "jest.autoRun": "off",
+
+  "tslint.configFile": "./tslint.json"
+
+}

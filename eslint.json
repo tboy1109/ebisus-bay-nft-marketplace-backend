@@ -1,0 +1,24 @@
+{
+  "plugins": ["@typescript-eslint/tslint"],
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/tslint/config": [
+      "warn",
+      {
+        "lintFile": "./tslint.json",
+        "rules": {},
+        "rulesDirectory": []
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rulesDirectory": {
+        "@typescript-eslint/tslint/config": ["off"]
+      }
+    }
+  ]
+}

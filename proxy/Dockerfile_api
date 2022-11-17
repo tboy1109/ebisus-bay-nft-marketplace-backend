@@ -1,0 +1,32 @@
+FROM ubuntu/nginx:1.18-20.04_beta
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
+COPY conf.d/api.conf /etc/nginx/conf.d/api.conf
+COPY conf.d/security_headers.conf /etc/nginx/conf.d/security_headers.conf
+
+# Install tools
+RUN apt-get update && apt-get install -y curl procps htop
+
+# Install the NGINX Amplify Agent
+RUN apt-get update \
+    && apt-get install -qqy curl gnupg2 \
+    && echo 'deb https://packages.amplify.nginx.com/py3/ubuntu focal amplify-agent' > /etc/apt/sources.list.d/nginx-amplify.list \
+    && curl -fs https://nginx.org/keys/nginx_signing.key | apt-key add - > /dev/null 2>&1 \
+    && apt-get update \
+    && apt-get install -qqy nginx-amplify-agent \
+    && apt-get purge -qqy gnupg2 \
+    && rm -rf /etc/apt/sources.list.d/nginx-amplify.list \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY nginx-amplify/agent.conf /etc/amplify-agent/agent.conf
+RUN sed -i='' -e "s|CONFFILE=/etc/amplify-agent/agent.conf|CONFFILE=/etc/amplify-agent/custom/agent.conf|" /etc/init.d/amplify-agent
+
+# The /entrypoint.sh script will launch nginx and the Amplify Agent.
+# The script honors AMPLIFY_API_KEY and AMPLIFY_IMAGENAME environment
+# variables, and updates /etc/amplify-agent/agent.conf accordingly.
+
+COPY ./entrypoint_api.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]

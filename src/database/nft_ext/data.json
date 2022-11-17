@@ -1,0 +1,1333 @@
+[
+  {
+    "name": "Ebisu's Bay VIP",
+    "onChain": false,
+    "address": "0x8d9232Ebc4f06B7b8005CCff0ca401675ceb25F5",
+    "multiToken": true,
+    "id": 2,
+    "listable": true,
+    "metadata": {
+      "slug": "ebisu-vip",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/avatar.jpg",
+      "card": "/img/collections/ebisu/card.png",
+      "maxSupply": 1000,
+      "website": "https://app.ebisusbay.com/",
+      "twitter": "https://twitter.com/EbisusBay",
+      "discord": "https://discord.gg/ynrBrSkAFG",
+      "medium": "https://blog.ebisusbay.com/"
+    }
+  },
+  {
+    "name": "Ebisu's Bay Founder",
+    "onChain": false,
+    "address": "0x8d9232Ebc4f06B7b8005CCff0ca401675ceb25F5",
+    "multiToken": true,
+    "id": 1,
+    "listable": false,
+    "metadata": {
+      "slug": "ebisu-founder",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/avatar.jpg",
+      "card": "/img/collections/ebisu/card.png",
+      "maxSupply": 10000,
+      "website": "https://app.ebisusbay.com/",
+      "twitter": "https://twitter.com/EbisusBay",
+      "discord": "https://discord.gg/ynrBrSkAFG",
+      "medium": "https://blog.ebisusbay.com/"
+    }
+  },
+  {
+    "name": "Mad Meerkat",
+    "multiToken": false,
+    "address": "0x89dBC8Bd9a6037Cbd6EC66C4bF4189c9747B1C56",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "mad-meerkat",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/meerkats/avatar.png",
+      "banner": "/img/collections/meerkats/banner.jpg",
+      "card": "/img/collections/meerkats/card.jpg",
+      "rarity": "rarity_sniper",
+      "maxSupply": 10000,
+      "website": "https://madmeerkat.io/",
+      "twitter": "https://twitter.com/MadMeerkatNFT",
+      "discord": "https://discord.gg/madmeerkat",
+      "medium": "https://medium.com/@madmeerkat0"
+    }
+  },
+  {
+    "name": "Petite Planets Gen 2",
+    "multiToken": false,
+    "address": "0x83Ac37cc236DB5e9e2F01929aBEf70D8dfc44f9a",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "petite-planets-gen2",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/petiteplanets/gen2/avatar.png",
+      "banner": "/img/collections/petiteplanets/gen2/banner.png",
+      "card": "/img/collections/petiteplanets/gen2/card.png",
+      "maxSupply": 200,
+      "website": "https://petiteplanets.com",
+      "twitter": "https://twitter.com/PetitePlanets",
+      "discord": "https://discord.gg/SaX7Suthbg"
+    }
+  },
+  {
+    "name": "Petite Planets NFT",
+    "multiToken": false,
+    "address": "0xEdb2Eb556765F258a827f75Ad5a4d9AEe9eA7118",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "petite-planets",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/petiteplanets/gen1/avatar.png",
+      "banner": "/img/collections/petiteplanets/gen1/banner.png",
+      "card": "/img/collections/petiteplanets/gen1/card.png",
+      "maxSupply": 600,
+      "website": "https://petiteplanets.com",
+      "twitter": "https://twitter.com/PetitePlanets",
+      "discord": "https://discord.gg/SaX7Suthbg"
+    }
+  },
+  {
+    "name": "CroMonkeys",
+    "multiToken": false,
+    "address": "0xE3402E65311b06B2Bd5b0A7e0aae0F378ECd93d8",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cromonkeys",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cromonkeys/avatar.gif",
+      "card": "/img/collections/cromonkeys/card.png",
+      "banner": "/img/collections/cromonkeys/banner.png",
+      "maxSupply": 1000,
+      "website": "https://cromonkeys.com/",
+      "twitter": "https://twitter.com/CROMonkeysNFT",
+      "discord": "https://discord.com/invite/84s8UgD7vC"
+    }
+  },
+  {
+    "name": "Cronos Slothty",
+    "multiToken": false,
+    "address": "0x94fCEDf4e07f1c3906195FA76852675590886Aaa",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-slothy",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/croslothy/avatar.gif",
+      "banner": "/img/collections/croslothy/banner.jpg",
+      "card": "/img/collections/croslothy/card.jpg",
+      "maxSupply": 250,
+      "website": "https://croslothty.com/",
+      "twitter": "https://twitter.com/Slothtynft",
+      "discord": "https://discord.gg/QPy6U6WWkj",
+      "telegram": "https://t.me/croslothty"
+    }
+  },
+  {
+    "name": "Crosmonauts",
+    "multiToken": false,
+    "address": "0xDFab622fC4E5CE1420F83cf38E52312f33849a0A",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crosmonauts",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crosmonauts/avatar.png",
+      "banner": "/img/collections/crosmonauts/banner.png",
+      "card": "/img/collections/crosmonauts/card.png",
+      "maxSupply": 1000,
+      "website": "https://www.crosmonauts.club/",
+      "twitter": "https://twitter.com/crosmonaut",
+      "discord": "https://discord.gg/mC7x6tKsSe"
+    }
+  },
+  {
+    "name": "CronosChimp",
+    "multiToken": false,
+    "address": "0x562f021423d75a1636db5be1c4d99bc005ccebfe",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-chimp-club",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/chimps/avatar.png",
+      "banner": "/img/collections/chimps/banner.png",
+      "card": "/img/collections/chimps/card.png",
+      "rarity": "rarity_sniper",
+      "maxSupply": 10000,
+      "website": "https://cronoschimp.club/",
+      "twitter": "https://twitter.com/CronosChimpClub",
+      "discord": "https://discord.gg/8GfKhBBZDb"
+    }
+  },
+  {
+    "name": "CroPunks - Punks on Cronos",
+    "multiToken": false,
+    "address": "0xaec3adc72e453ecb6009aa48e0ac967941b30c4e",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cro-punks",
+      "verified": true,
+      "avatar": "/img/collections/cropunks/avatar.png",
+      "banner": "/img/collections/cropunks/1920_banner.png",
+      "card": "/img/collections/cropunks/600_preview.png",
+      "maxSupply": 1111,
+      "website": "https://cropunks.art/",
+      "twitter": "https://twitter.com/PUNKSONCRONOS",
+      "discord": "https://discord.gg/vupUCubV7T",
+      "telegram": "https://t.me/cropunks"
+    }
+  },
+  {
+    "name": "WinterPunks by CroPunks",
+    "multiToken": false,
+    "address": "0x1c8Ef727Cb7AF92B8eE3cdBB6778BeAa1aBc43ac",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "winter-punks",
+      "verified": true,
+      "avatar": "/img/collections/winterpunks/winter_ava.png",
+      "banner": "/img/collections/winterpunks/1920_bann_xmas.png",
+      "card": "/img/collections/winterpunks/600_preview_xmas.png",
+      "maxSupply": 111,
+      "website": "https://cropunks.art/",
+      "twitter": "https://twitter.com/PUNKSONCRONOS",
+      "discord": "https://discord.gg/6asq63Qg3g",
+      "telegram": "https://t.me/cropunks"
+    }
+  },
+  {
+    "name": "CRO CROW",
+    "multiToken": false,
+    "address": "0xe4ab77ed89528d90e6bcf0e1ac99c58da24e79d5",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crocrow",
+      "verified": true,
+      "avatar": "/img/collections/crocrow/avatar.png",
+      "banner": "/img/collections/crocrow/banner.png",
+      "card": "/img/collections/crocrow/card.png",
+      "rarity": "rarity_sniper",
+      "maxSupply": 7777,
+      "website": "https://crocrow.com",
+      "twitter": "https://twitter.com/cronoscrocrow",
+      "discord": "https://discord.gg/8GMWgWB5u8",
+      "telegram": "https://t.me/crocrownft"
+    }
+  },
+  {
+    "name": "Cronies",
+    "multiToken": false,
+    "address": "0xD961956B319A10CBdF89409C0aE7059788A4DaBb",
+    "onChain": true,
+    "listable": true,
+    "metadata": {
+      "slug": "cronies",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/avatar.jpg",
+      "card": "/img/collections/cronies/card.png",
+      "maxSupply": 443,
+      "website": "https://app.ebisusbay.com/",
+      "twitter": "https://twitter.com/EbisusBay",
+      "discord": "https://discord.gg/ynrBrSkAFG",
+      "medium": "https://blog.ebisusbay.com/"
+    }
+  },
+  {
+    "name": "Cronos Punk",
+    "multiToken": false,
+    "address": "0x16134B610f15338B96D8DF52EE63553dD2B013A2",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-punk",
+      "description": "",
+      "verified": true,
+      "maxSupply": 2720,
+      "website": "https://www.cronospunk.net/",
+      "twitter": "https://twitter.com/PunkCronos",
+      "discord": "https://discord.gg/DGZBBkqdms",
+      "telegram": "https://t.me/cronospunk"
+    }
+  },
+  {
+    "name": "CROCOSNFT",
+    "multiToken": false,
+    "address": "0x18b73D1f9e2d97057deC3f8D6ea9e30FCADB54D7",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crocos-nft",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crocs/crocos_avatar.jpg",
+      "maxSupply": 2000,
+      "website": "https://crocosnft.com",
+      "twitter": "https://twitter.com/CrocosNFT",
+      "discord": "https://discord.gg/BFTxREdcY7",
+      "telegram": "https://t.me/CrocosNFT"
+    }
+  },
+  {
+    "name": "CrocosXmasNFT",
+    "multiToken": false,
+    "address": "0xeEeecAF68c6142D2f2F2628557A58cf4440a9BBD",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crocos-nft-xmas",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crocs/crocos_avatar.jpg",
+      "maxSupply": 2000,
+      "website": "https://crocosnft.com",
+      "twitter": "https://twitter.com/CrocosNFT",
+      "discord": "https://discord.gg/BFTxREdcY7",
+      "telegram": "https://t.me/CrocosNFT"
+    }
+  },
+  {
+    "name": "CRODrakes",
+    "multiToken": false,
+    "address": "0xbed280E63B3292a5faFEC896F9a0256d12552170",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crodrakes",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crodrakes/avatar.gif",
+      "banner": "/img/collections/crodrakes/banner.png",
+      "card": "/img/collections/crodrakes/card.png",
+      "maxSupply": 1111,
+      "website": "https://crodrakesnft.com/",
+      "twitter": "https://twitter.com/CRODrakesNFT",
+      "discord": "https://discord.gg/9bhF6WBYs5",
+      "telegram": "https://t.me/crodrakes"
+    }
+  },
+  {
+    "name": "SupBirds",
+    "multiToken": false,
+    "address": "0x48879b93AbCE2B69F9792584f8891BCe30C1BF28",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "supbirds",
+      "description": "",
+      "verified": true,
+      "maxSupply": 5000,
+      "website": "https://www.supbirds.com/",
+      "twitter": "https://twitter.com/SupBirdsNFT",
+      "discord": "https://discord.gg/EUTtcgNRwf"
+    }
+  },
+  {
+    "name": "Crownos",
+    "multiToken": false,
+    "address": "0x704f0990CE1997ED5110e7415cc7aBE090006C1e",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "crownos",
+      "maxSupply": 3333,
+      "website": "https://crownosnft.com/",
+      "twitter": "https://twitter.com/Crownosnfts",
+      "discord": "https://discord.gg/BCNBwkz6NU",
+      "telegram": "https://t.me/CrownosNft"
+    }
+  },
+  {
+    "name": "Crypto Collage Collection",
+    "multiToken": false,
+    "address": "0x64274Fce5bd057E6416f57A5EdC8a3195E153022",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crypto-collage-collection",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cryptocollage/avatar.png",
+      "banner": "/img/collections/cryptocollage/banner.png",
+      "card": "/img/collections/cryptocollage/card.png",
+      "maxSupply": 100,
+      "website": "https://crypto.com/nft/profile/12345670",
+      "twitter": "https://twitter.com/Cryptorockstar4"
+    }
+  },
+  {
+    "name": "Petite Planets Gen 1 Governor Medals",
+    "multiToken": false,
+    "address": "0xCaa648e8f8fE3D4705BC3D9B0d4d1068509f1014",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "petite-planets-gen1-governor-medals",
+      "description": "",
+      "verified": true,
+      "maxSupply": 200,
+      "website": "https://petiteplanets.com",
+      "twitter": "https://twitter.com/PetitePlanets",
+      "discord": "https://discord.gg/SaX7Suthbg"
+    }
+  },
+  {
+    "name": "Day One Supporter",
+    "multiToken": false,
+    "address": "0xf711e40d09BF4709c32eb967243872700fe80CC7",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "day-one-supporter",
+      "description": "",
+      "verified": true,
+      "maxSupply": 400,
+      "website": "https://cromoon.net/",
+      "twitter": "https://twitter.com/CroMoonOfficial",
+      "discord": "https://discord.gg/KqtDGjwWh3",
+      "telegram": "https://t.me/OfficialCroMoon"
+    }
+  },
+  {
+    "name": "Cronostars",
+    "multiToken": false,
+    "address": "0x03741A724d0E15F8FD052DAa56633a69090D20a3",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronostars",
+      "description": "",
+      "verified": true,
+      "maxSupply": 4242,
+      "website": "https://cronostars.art/",
+      "twitter": "https://twitter.com/CronoStars",
+      "telegram": "https://t.me/cronostars"
+    }
+  },
+  {
+    "name": "CROPhones",
+    "multiToken": false,
+    "address": "0x8D075e99EAE789B41b6ac8003c9bfacFb42dFf72",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cro-phones",
+      "description": "",
+      "verified": true,
+      "maxSupply": 1000,
+      "website": "https://www.crophones.com/",
+      "twitter": "https://twitter.com/CROPhonesNFT",
+      "discord": "https://discord.gg/3D4ESVqXWM",
+      "telegram": "https://t.me/crophonesnft"
+    }
+  },
+  {
+    "name": "CronosEyezNFT",
+    "multiToken": false,
+    "address": "0xCE5caC89E25DBCCD590090994919a5Ef53bBD6C0",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronoseyez",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronoseyez/gen1/avatar.jpg",
+      "banner": "/img/collections/cronoseyez/gen1/banner.jpg",
+      "card": "/img/collections/cronoseyez/gen1/card.jpg",
+      "maxSupply": 333,
+      "website": "https://cronosart.org/",
+      "twitter": "https://twitter.com/cronoseyezNFT",
+      "discord": "https://discord.gg/DE6j7dz2F2"
+    }
+  },
+  {
+    "name": "CronosEyez Gen 2",
+    "multiToken": false,
+    "address": "0x15730353272C88229a91804854078aa9B3A70448",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "cronoseyez-gen2",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronoseyez/gen2/avatar.png",
+      "banner": "/img/collections/cronoseyez/gen2/banner.png",
+      "card": "/img/collections/cronoseyez/gen2/card.png",
+      "maxSupply": 999,
+      "website": "https://cronosart.org/",
+      "twitter": "https://twitter.com/cronoseyezNFT",
+      "discord": "https://discord.gg/DE6j7dz2F2"
+    }
+  },
+  {
+    "name": "CROstmas Gnome",
+    "multiToken": false,
+    "address": "0xE8D59fB0259F440F5f17cE29975F98D728614f18",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crostmas-gnome",
+      "description": "",
+      "verified": true,
+      "maxSupply": 10000,
+      "website": "https://crostmascards.com/",
+      "twitter": "https://twitter.com/crostmascards"
+    }
+  },
+  {
+    "name": "Pingoo Black Friday Ticket",
+    "multiToken": false,
+    "address": "0x948E8c6E0c9035f7372a10e10f9f71cC81341053",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "pingoo",
+      "description": "",
+      "verified": true,
+      "maxSupply": 49,
+      "website": "https://www.sneakypenguins.club/",
+      "twitter": "https://twitter.com/cronospenguins",
+      "discord": "https://discord.gg/6UHpwWAgGC",
+      "medium": "https://medium.com/@sneakypenguinsclub"
+    }
+  },
+  {
+    "name": "Elon's Adventure",
+    "multiToken": false,
+    "address": "0x3Bf0a68a03fE82A5D21445f3a2306bB012dd50D9",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "elons-adventure",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/barbara/elon/avatar.jpg",
+      "banner": "/img/collections/barbara/elon/banner.jpg",
+      "card": "/img/collections/barbara/elon/card.jpg",
+      "maxSupply": 20,
+      "website": "https://crypto.com/nft/profile/vredekop?tab=created",
+      "twitter": "https://twitter.com/BarbaraRedekop"
+    }
+  },
+  {
+    "name": "Game Art NFT",
+    "multiToken": false,
+    "address": "0x6213e64dc1c3c9C56E23516b4853bb36674f6272",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "game-art-nft",
+      "description": "",
+      "verified": true,
+      "maxSupply": 1989,
+      "website": "https://www.gameartnft.com/",
+      "twitter": "https://twitter.com/GameArtNFT",
+      "discord": "https://discord.gg/m7reVeVaSB"
+    }
+  },
+  {
+    "name": "SneakyPenguinsClub",
+    "multiToken": false,
+    "address": "0xb9f31aC76D21e529e41B4dB61af3ab7E2ec026D5",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "sneaky-penguins-club",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/sneakypenguins/avatar.png",
+      "banner": "/img/collections/sneakypenguins/banner.png",
+      "card": "/img/collections/sneakypenguins/card.png",
+      "maxSupply": 833,
+      "website": "https://www.sneakypenguins.club/",
+      "twitter": "https://twitter.com/cronospenguins",
+      "discord": "https://discord.gg/6UHpwWAgGC",
+      "medium": "https://medium.com/@sneakypenguinsclub"
+    }
+  },
+  {
+    "name": "CroBits",
+    "multiToken": false,
+    "address": "0x527db60A25a5FDf2529815f3cE7AeA4C95078d9c",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "cro-bits",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Cronos Red Pandas",
+    "multiToken": false,
+    "address": "0xdc29c27b6adE7b172359EC1746a02B3304e974d8",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-red-pandas",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/redpandas/avatar.png",
+      "banner": "/img/collections/redpandas/banner.png",
+      "card": "/img/collections/redpandas/card.png",
+      "maxSupply": 5000,
+      "twitter": "https://twitter.com/croredpandasnft"
+    }
+  },
+  {
+    "name": "Genesis Rock",
+    "multiToken": true,
+    "id": 1,
+    "address": "0x68ec010Cf044CbAe1aCc213D043d394E620c641D",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "genesis-rock",
+      "description": "",
+      "verified": true,
+      "maxSupply": 92,
+      "website": "https://cromoon.net/",
+      "twitter": "https://twitter.com/CroMoonOfficial",
+      "discord": "https://discord.gg/KqtDGjwWh3",
+      "telegram": "https://t.me/OfficialCroMoon",
+      "medium": "https://medium.com/@CroMoon"
+    }
+  },
+  {
+    "name": "Ebisu by Barbara",
+    "multiToken": false,
+    "address": "0xd036b2223bcc2A96164B023022D6b78CD71A1a12",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "ebisu-by-barbara",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/barbara/ebisu/avatar.jpg",
+      "banner": "/img/collections/barbara/ebisu/banner.jpg",
+      "card": "/img/collections/barbara/ebisu/card.jpg",
+      "maxSupply": 173,
+      "website": "https://crypto.com/nft/profile/vredekop?tab=created",
+      "twitter": "https://twitter.com/BarbaraRedekop"
+    }
+  },
+  {
+    "name": "Cronos Dolphinos",
+    "multiToken": false,
+    "address": "0x9DD120Ed601c0bdc5725F9cbf529Cb70fc0ECAFB",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-dolphinos",
+      "description": "",
+      "verified": true,
+      "maxSupply": 504,
+      "website": "https://www.cronosdolphinos.com/",
+      "twitter": "https://twitter.com/CronosDolphinos",
+      "discord": "https://discord.gg/5fXQV3P9Ru"
+    }
+  },
+  {
+    "name": "DrakeStones",
+    "multiToken": false,
+    "address": "0x7E95774b4750F5c330ff2E44981c5E85E1a04F91",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "drake-stones",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Afro Cronos Dogs",
+    "multiToken": false,
+    "address": "0x8cA7e38Ef04F61276569E30E6f9550Ac703BA736",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "afro-cronos-dogs",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "SantaCro",
+    "multiToken": false,
+    "address": "0xf273dB80d2C2D85f86B5B4c25F2Cce1De836D404",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "santa-cro",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/santacro/avatar.png",
+      "banner": "/img/collections/santacro/banner.png",
+      "card": "/img/collections/santacro/card.png",
+      "maxSupply": 800,
+      "website": "https://cromoon.net/",
+      "twitter": "https://twitter.com/CroMoonOfficial",
+      "discord": "https://discord.gg/KqtDGjwWh3",
+      "telegram": "https://t.me/OfficialCroMoon",
+      "medium": "https://medium.com/@CroMoon"
+    }
+  },
+  {
+    "name": "Cro Sharks",
+    "multiToken": false,
+    "address": "0x01b7D7e3D4e2f496D0b25453A361e36eF5144686",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cro-sharks",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crosharks/avatar.jpg",
+      "banner": "/img/collections/crosharks/banner.jpg",
+      "card": "/img/collections/crosharks/card.jpg",
+      "maxSupply": 2222,
+      "website": "https://crosharks.club/",
+      "twitter": "https://twitter.com/CroSharks",
+      "discord": "https://discord.gg/7UhH3ge94j"
+    }
+  },
+  {
+    "name": "Pixowls",
+    "multiToken": false,
+    "address": "0xF1Ad680E2F9269C0306F6176DB4D782ae05A9a9a",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "pixowls",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/pixowls/avatar.png",
+      "banner": "/img/collections/pixowls/banner.jpg",
+      "card": "/img/collections/pixowls/card.jpg",
+      "maxSupply": 2222,
+      "website": "https://www.cronospixowls.com/",
+      "twitter": "https://twitter.com/Cronos_Pixowls",
+      "discord": "https://discord.gg/5zA2ZZJBYB"
+    }
+  },
+  {
+    "name": "Cronos Red Panda Giveaways",
+    "multiToken": false,
+    "address": "0x790D8b9568e44087aB144C7E502c47Cb43d9F75d",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-red-panda-giveaways",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Cronos Nanas",
+    "multiToken": false,
+    "address": "0x70c6062100b09aF2Ec63345cda372d52423BE4aC",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-nanas",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronosnanas/avatar.png",
+      "banner": "/img/collections/cronosnanas/banner.png",
+      "card": "/img/collections/cronosnanas/card.png",
+      "maxSupply": 4444,
+      "website": "https://www.niftynanas.com/",
+      "twitter": "https://twitter.com/NiftyNanas",
+      "discord": "https://discord.gg/niftynanas"
+    }
+  },
+  {
+    "name": "Crypto Lovers",
+    "multiToken": false,
+    "address": "0xe7907F66a464729D7Ca521dfCe01816d06D226Dc",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "crypto-lovers",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Cronos Slothty Xmas",
+    "multiToken": false,
+    "address": "0x303D2a6143cFc67C26Db2879eA955f7d076c4cBc",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cro-slothy-xmas",
+      "description": "",
+      "verified": true,
+      "maxSupply": 50,
+      "website": "https://croslothty.com/",
+      "twitter": "https://twitter.com/Slothtynft",
+      "discord": "https://discord.gg/QPy6U6WWkj",
+      "telegram": "https://t.me/croslothty"
+    }
+  },
+  {
+    "name": "Ant Mint Pass",
+    "multiToken": false,
+    "address": "0x844DaCD5A52DB9368E6C606f739599598031da84",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "ant-mint-pass",
+      "description": "",
+      "verified": true,
+      "maxSupply": 3333,
+      "website": "https://cronossociety.com/",
+      "twitter": "https://twitter.com/CronosSociety",
+      "discord": "https://discord.gg/27w5Y6rCkF",
+      "telegram": "https://t.me/CronosThugzSociety",
+      "gitbook": "https://cronosthugssociety.gitbook.io/cronos-secret-society/"
+    }
+  },
+  {
+    "name": "CROMages",
+    "multiToken": false,
+    "address": "0xb0faE50ebe0cE5aee08898d73042cD28E6A89D48",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cromages",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cromages/avatar.gif",
+      "banner": "/img/collections/cromages/banner.png",
+      "card": "/img/collections/cromages/card.png",
+      "maxSupply": 6000,
+      "website": "https://cromages.com/",
+      "twitter": "https://twitter.com/CROMagesNFT",
+      "discord": "https://discord.gg/D9w7uW6e9U"
+    }
+  },
+  {
+    "name": "CroSkull",
+    "multiToken": false,
+    "address": "0xF87A517A5CaecaA03d7cCa770789BdB61e09e05F",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "croskull",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/croskull/avatar.jpg",
+      "banner": "/img/collections/croskull/banner.jpg",
+      "card": "/img/collections/croskull/card.jpg",
+      "maxSupply": 6666,
+      "website": "https://croskull.com/",
+      "twitter": "https://twitter.com/CroskullNFT",
+      "discord": "https://discord.gg/aU5YmPuqKy",
+      "medium": "https://medium.com/@croskullnft"
+    }
+  },
+  {
+    "name": "LazyHorse",
+    "multiToken": false,
+    "address": "0xD504ed871d33dbD4f56f523A37dceC86Ee918cb6",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "lazy-horse",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/lazyhorse/avatar.png",
+      "card": "/img/collections/lazyhorse/card.png",
+      "banner": "/img/collections/lazyhorse/banner.png",
+      "maxSupply": 10000,
+      "website": "https://www.lazyhorseraceclub.com",
+      "twitter": "https://twitter.com/LazyHorseRC",
+      "discord": "https://discord.gg/lhrc",
+      "medium": "https://medium.com/@lazyhorseraceclub"
+    }
+  },
+  {
+    "name": "Cronos Lizards",
+    "multiToken": false,
+    "address": "0x89Ff2f804B6C029eeE739bCeE029453b05e94F43",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-lizards",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronoslizards/avatar.png",
+      "card": "/img/collections/cronoslizards/card.png",
+      "banner": "/img/collections/cronoslizards/banner.png",
+      "maxSupply": 797,
+      "website": "https://www.cronoslizards.com/home/index.html",
+      "twitter": "https://twitter.com/CronosLizards",
+      "discord": "https://discord.gg/BRDQhtDNsM"
+    }
+  },
+  {
+    "name": "Cronos Monkey Business",
+    "multiToken": false,
+    "address": "0x939b90c529F0e3a2C187E1b190Ca966a95881FDe",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-monkey-business",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronosmb/avatar.png",
+      "card": "/img/collections/cronosmb/card.png",
+      "banner": "/img/collections/cronosmb/banner.png",
+      "maxSupply": 1000,
+      "website": "https://cronosmb.com/",
+      "twitter": "https://twitter.com/MonkeyCronos",
+      "discord": "https://discord.gg/qXxkanCKBB",
+      "medium": "https://medium.com/cronos-monkey-business"
+    }
+  },
+  {
+    "name": "Crognomes (v1)",
+    "multiToken": false,
+    "address": "0x3b6d6256F5f38c5f7b29a2662B259BA99778278C",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "crognomes-v1",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crognomes/avatar.png",
+      "card": "/img/collections/crognomes/card.png",
+      "banner": "/img/collections/crognomes/banner.png",
+      "maxSupply": 2000,
+      "website": "https://www.crognomes.com/",
+      "twitter": "https://twitter.com/CroGnomes",
+      "discord": "https://discord.gg/WkRgkSQ2hJ"
+    }
+  },
+  {
+    "name": "Admiration",
+    "multiToken": false,
+    "address": "0x3c02f80F2ca893783Af6FE1C648aEAc33AF60505",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "admiration",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/deplone/avatar.jpg",
+      "banner": "/img/collections/deplone/banner.jpg",
+      "card": "/img/collections/deplone/card.jpg",
+      "maxSupply": 22,
+      "website": "https://linktr.ee/deplone",
+      "twitter": "https://twitter.com/deplone3"
+    }
+  },
+  {
+    "name": "CROugars",
+    "multiToken": false,
+    "address": "0xdCcCEd571dcbC82Bbeadf95Af20ee4442E21208C",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crougars",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crougars/avatar.png",
+      "card": "/img/collections/crougars/card.png",
+      "banner": "/img/collections/crougars/banner.png",
+      "maxSupply": 2222,
+      "website": "https://crougar.com/",
+      "twitter": "https://twitter.com/CROugarNFT",
+      "discord": "https://discord.gg/G8Puur6Qea",
+      "medium": "https://medium.com/@crougar"
+    }
+  },
+  {
+    "name": "Fractals",
+    "multiToken": false,
+    "address": "0x78c9156EFb0c417F1E96935a37C3f456D7b3A1d1",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "fractals",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/fractals/avatar.png",
+      "card": "/img/collections/fractals/card.png",
+      "banner": "/img/collections/fractals/banner.png",
+      "maxSupply": 50,
+      "website": "https://www.instagram.com/maxx9498/"
+    }
+  },
+  {
+    "name": "Cronos Fox Fraternity",
+    "multiToken": false,
+    "address": "0x75233B3C8b60b7191704C0f6100850dc769bb857",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "cronos-fox-fraternity",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/foxfraternity/avatar.jpg",
+      "card": "/img/collections/foxfraternity/card.jpg",
+      "banner": "/img/collections/foxfraternity/banner.jpg",
+      "maxSupply": 4444,
+      "website": "https://www.cronosfoxfraternity.com/",
+      "twitter": "https://twitter.com/FoxFraternity",
+      "discord": "https://discord.gg/EryAWQ4sDn"
+    }
+  },
+  {
+    "name": "MAG Brew Vikings Special Edition",
+    "multiToken": false,
+    "address": "0xAaACC4EdEaD913D8c8A90D7eb10F79490c9a39B8",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "mag-brew-vikings",
+      "description": "",
+      "verified": true,
+      "maxSupply": 8000,
+      "website": "https://www.magbrewvikings.com/",
+      "twitter": "https://twitter.com/MAGBrewVikings",
+      "discord": "https://discord.gg/magbrewvikings",
+      "medium": "https://medium.com/@MAG.Brew.Vikings"
+    }
+  },
+  {
+    "name": "CroSkullAmbassadors",
+    "multiToken": false,
+    "address": "0xF0a2BF982eD9dd6c83163b5B6E01744039D9EB6D",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "croskull-ambassadors",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Crxillion",
+    "multiToken": false,
+    "address": "0xE1bAa24525B5f48F9B9df54802E44E85c0D81099",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "crxillion",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crxillion/avatar.png",
+      "card": "/img/collections/crxillion/card.png",
+      "banner": "/img/collections/crxillion/banner.png",
+      "maxSupply": 2500,
+      "website": "https://crodex.app/",
+      "twitter": "https://twitter.com/crodexapp",
+      "discord": "https://discord.gg/7HwpTF63y5",
+      "telegram": "https://t.me/crodexofficial"
+    }
+  },
+  {
+    "name": "Cronos Dogs",
+    "multiToken": false,
+    "address": "0x7A47E51c4D51067b8A5B373235d5BB555aE06eB7",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "cronos-dogs",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronosdogs/avatar.png",
+      "card": "/img/collections/cronosdogs/card.jpg",
+      "banner": "/img/collections/cronosdogs/banner.png",
+      "maxSupply": 700,
+      "website": "https://cronosdogs.com/",
+      "twitter": "https://twitter.com/cronosdogs",
+      "discord": "https://discord.gg/ay8BqHp4Cz"
+    }
+  },
+  {
+    "name": "Smart Mars",
+    "multiToken": false,
+    "address": "0x4B2e1f709Df771F2111f74522F79A97F95aAf1D6",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "smart-mars",
+      "description": "",
+      "verified": true,
+      "maxSupply": 9000,
+      "website": "https://smartmartians.com/",
+      "twitter": "https://twitter.com/SMARTMARS4",
+      "telegram": "https://t.me/smartmartians"
+    }
+  },
+  {
+    "name": "IcyCro",
+    "multiToken": false,
+    "address": "0x1aBBA40B94070Bf699970d8fCA9c71C1168273d3",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "icy-cro",
+      "description": "",
+      "verified": true
+    }
+  },
+  {
+    "name": "Cronos Goats",
+    "multiToken": false,
+    "address": "0x93A3906FF14C9Aa4F33377aE94Cc4A9858D346b9",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-goats",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronosgoats/avatar.gif",
+      "card": "/img/collections/cronosgoats/card.png",
+      "banner": "/img/collections/cronosgoats/banner.png",
+      "maxSupply": 1000,
+      "website": "https://cronosgoats.com/",
+      "twitter": "https://twitter.com/CronosGoatsNFT",
+      "discord": "https://discord.gg/vgjPUqcCJ7"
+    }
+  },
+  {
+    "name": "Cronos Ragdoll",
+    "multiToken": false,
+    "address": "0x21E68422011a330beFdf45b0E45072c947316C95",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "cronos-ragdoll",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/cronosragdoll/avatar.png",
+      "card": "/img/collections/cronosragdoll/card.png",
+      "banner": "/img/collections/cronosragdoll/banner.png",
+      "maxSupply": 10000,
+      "website": "https://www.cronosragdolls.com/",
+      "twitter": "https://twitter.com/CronosRagdolls",
+      "discord": "https://discord.gg/7P3jyatMDY"
+    }
+  },
+  {
+    "name": "Fooly Fish",
+    "multiToken": false,
+    "address": "0xBb0b5d1d32435764f8d11Ff7086d47D81bD2bA5B",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "fooly-fish",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/foolyfish/avatar.png",
+      "card": "/img/collections/foolyfish/card.png",
+      "banner": "/img/collections/foolyfish/banner.png",
+      "maxSupply": 3333,
+      "website": "https://www.foolyfish.com/",
+      "twitter": "https://twitter.com/FoolyFishNFT",
+      "discord": "https://discord.gg/nSNeSxFQed"
+    }
+  },
+  {
+    "name": "Weird Apes Club",
+    "multiToken": false,
+    "address": "0x7D5f8F9560103E1ad958A6Ca43d49F954055340a",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "weird-apes-club",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/weirdapesclub/avatar.png",
+      "card": "/img/collections/weirdapesclub/card.png",
+      "banner": "/img/collections/weirdapesclub/banner.png",
+      "maxSupply": 2500,
+      "website": "https://weirdapes.com/",
+      "twitter": "https://twitter.com/WeirdApesClub",
+      "discord": "https://discord.gg/d6WvCpfn9W",
+      "medium": "https://medium.com/@WeirdApesClub"
+    }
+  },
+  {
+    "name": "IcySquidGame Vikings",
+    "multiToken": false,
+    "address": "0x4F68b2F90091B6C6012b487Faa7D267FC0Db86dE",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "icysquidgame-vikings",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/icysquidgame/avatar.png",
+      "card": "/img/collections/icysquidgame/card.jpg",
+      "banner": "/img/collections/icysquidgame/banner.jpg",
+      "maxSupply": 1000,
+      "website": "https://www.icysquidgame.com/",
+      "twitter": "https://twitter.com/IcySquidGame",
+      "telegram": "http://t.me/IcySquidGame"
+    }
+  },
+  {
+    "name": "Blue Skull Potions",
+    "multiToken": false,
+    "address": "0xB929D3002208f405180D3C07616F88EDa45F3e14",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "blue-skull-potions",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/croskull/bluepotions/avatar.jpg",
+      "card": "/img/collections/croskull/bluepotions/card.jpg",
+      "banner": "/img/collections/croskull/bluepotions/banner.jpg",
+      "maxSupply": 333,
+      "website": "https://croskull.com/",
+      "twitter": "https://twitter.com/CroskullNFT",
+      "discord": "https://discord.gg/aU5YmPuqKy",
+      "medium": "http://medium.com/@croskullnft"
+    }
+  },
+  {
+    "name": "Red Skull Potions",
+    "multiToken": false,
+    "address": "0x508378E99F5527Acb6eB4f0fc22f954c5783e5F9",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "red-skull-potions",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/croskull/redpotions/avatar.jpg",
+      "card": "/img/collections/croskull/redpotions/card.jpg",
+      "banner": "/img/collections/croskull/redpotions/banner.jpg",
+      "maxSupply": 333,
+      "website": "https://croskull.com/",
+      "twitter": "https://twitter.com/CroskullNFT",
+      "discord": "https://discord.gg/aU5YmPuqKy",
+      "medium": "http://medium.com/@croskullnft"
+    }
+  },
+  {
+    "name": "Lazy Horse Member NFT (PONY)",
+    "multiToken": false,
+    "address": "0x7d0259070B5f513CA543afb6a906d42af5884B1B",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "lazy-horse-pony",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/lazyhorse/avatar.png",
+      "card": "/img/collections/lazyhorse/card.png",
+      "banner": "/img/collections/lazyhorse/banner.png"
+    }
+  },
+  {
+    "name": "Space Crystal Unicorns",
+    "multiToken": false,
+    "address": "0x574677Ae4d09f8FcD4aa347E8905ccA7e18a4ca0",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "space-crystal-unicorns",
+      "description": "They are magical! Their strength lies in feeling and finding those in need. All funds raised will be used to support hippotherapy classes for children with disabilities.",
+      "verified": true,
+      "avatar": "/img/collections/barbara/spacecrystalunicorns/avatar.jpg",
+      "card": "/img/collections/barbara/spacecrystalunicorns/card.jpg",
+      "banner": "/img/collections/barbara/spacecrystalunicorns/banner.jpg"
+    }
+  },
+  {
+    "name": "Honorary Chimps",
+    "multiToken": false,
+    "address": "0x387cd44676CDEe5E398eC1a152A5136d9f4E1760",
+    "onChain": false,
+    "listable": true,
+    "metadata": {
+      "slug": "honorary-chimps",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/chimps/avatar.png",
+      "banner": "/img/collections/chimps/banner.png",
+      "card": "/img/collections/chimps/card.png"
+    }
+  },
+  {
+    "name": "Crognomes",
+    "multiToken": false,
+    "address": "0xDe56D1C3E5B9E8e4f12533c1E64D4f6b7eEE701E",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "crognomes",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/crognomes/avatar.png",
+      "card": "/img/collections/crognomes/card.png",
+      "banner": "/img/collections/crognomes/banner.png",
+      "maxSupply": 2000,
+      "website": "https://www.crognomes.com/",
+      "twitter": "https://twitter.com/CroGnomes",
+      "discord": "https://discord.gg/WkRgkSQ2hJ"
+    }
+  },
+  {
+    "name": "Aunah",
+    "multiToken": false,
+    "address": "0xf3CbbEed8537b05557aBA2791642822C1A3F8Ac8",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "aunah",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/anuah/avatar.png",
+      "card": "/img/collections/anuah/card.png",
+      "banner": "/img/collections/anuah/banner.png"
+    }
+  },
+  {
+    "name": "Marie's Cyborgs",
+    "multiToken": false,
+    "address": "0x84Ad0Da2C88dB7A8dfcEf9Cc2436c9e4446b56F3",
+    "onChain": false,
+    "listable": false,
+    "metadata": {
+      "slug": "maries-cyborgs",
+      "description": "",
+      "verified": true,
+      "avatar": "/img/collections/mariecyborg/avatar.png",
+      "card": "/img/collections/mariecyborg/card.png",
+      "banner": "/img/collections/mariecyborg/banner.png",
+      "maxSupply": 2500,
+      "website": "https://www.mariescyborgs.io/",
+      "twitter": "https://twitter.com/mariescyborgs",
+      "discord": "https://discord.gg/mariescyborgs",
+      "telegram": "https://t.me/mariescyborgs"
+    }
+  }
+]

@@ -1,0 +1,263 @@
+options:
+  docker: true
+
+definitions:
+  updateOS: &update
+    apt-get update
+  printVersion: &version
+    node --version && npm --version
+  confBuildx: &buildx
+    docker --version &&
+    docker pull docker/buildx-bin:latest &&
+    docker container create --name buildx docker/buildx-bin:latest docker buildx version &&
+    mkdir -p /usr/libexec/docker/cli-plugins/ &&
+    docker container cp buildx:/buildx /usr/libexec/docker/cli-plugins/docker-buildx &&
+    docker run --rm --privileged multiarch/qemu-user-static --reset -p yes &&
+    docker buildx create --use &&
+    docker buildx version
+  awsEcrLogin: &ecrlogin
+    aws ecr get-login-password | docker login --password-stdin --username AWS "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com"
+  buildApp: &appcontainer
+    docker buildx build --push --platform linux/arm64 --tag ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${APP_REPOSITORY}:${ENV} -f Dockerfile .
+  buildProxyApi: &proxyapicontainer
+    sed -i='' -e "s|<SERVER_NAME>|${SERVER_NAME_API}|" proxy/conf.d/api.conf &&
+    sed -i='' -e "s|<SERVER_NAME>|${SERVER_NAME_API}|" proxy/conf.d/default.conf &&
+    docker buildx build --push --platform linux/arm64 --tag ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${PROXY_REPOSITORY}:${ENV} -f proxy/Dockerfile_api ./proxy
+  buildProxyAdmin: &proxyadmincontainer
+    sed -i='' -e "s|<SERVER_NAME>|${SERVER_NAME_ADMIN}|" proxy/conf.d/admin.conf &&
+    docker buildx build --push --platform linux/arm64 --tag ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${PROXY_ADMIN_REPOSITORY}:${ENV} -f proxy/Dockerfile_admin ./proxy
+  steps:
+    - step: &test
+        name: Test
+        image: node:16
+        runs-on:
+          - 'self.hosted'
+          - 'linux'
+          - 'api'
+        size: 1x
+        script:
+          - *update
+          - *version
+          - npm install --no-audit
+          #- npm run test
+        artifacts:
+          - node_modules/**
+    - step: &build
+        name: Build application
+        image: node:16
+        runs-on:
+          - 'self.hosted'
+          - 'linux'
+          - 'api'
+        size: 1x
+        script:
+          - *update
+          - *version
+          - export NODE_OPTIONS=--max_old_space_size=6144
+          - npm run build
+        artifacts:
+          - dist/**
+
+pipelines:
+  custom: # Pipelines that can only be triggered manually or by schedule
+    deploy-to-sandbox:
+      - step: *test
+      - step: *build
+      - step:
+          name: Build containers
+          image: amazon/aws-cli
+          deployment: Sandbox
+          services:
+            - docker
+          runs-on:
+            - 'self.hosted'
+            - 'linux'
+            - 'api'
+          size: 1x
+          script:
+            # Install and configure Docker Buildx
+            - *buildx
+            # Login to ECR
+            - *ecrlogin
+            # Build container images and push to ECR repositorys and push to ECR repository
+            - *appcontainer
+            - *proxyapicontainer
+            - *proxyadmincontainer
+      - step:
+         name: Deploy
+         image: alpine:latest
+         runs-on:
+           - 'self.hosted'
+           - 'linux'
+           - 'api'
+         size: 1x
+         clone:
+           enabled: false
+         script:
+           # deploy sandbox-ebisusbay-api-arm64-us-east-1 / sandboxapi.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"sandbox\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_api_deploy/pipelines/'
+  branches:
+    sandbox:
+      - step: *test
+      - step: *build
+      - step:
+          name: Build containers
+          image: amazon/aws-cli
+          deployment: Sandbox
+          services:
+            - docker
+          runs-on:
+            - 'self.hosted'
+            - 'linux'
+            - 'api'
+          size: 1x
+          script:
+            # Install and configure Docker Buildx
+            - *buildx
+            # Login to ECR
+            - *ecrlogin
+            # Build container images and push to ECR repositorys and push to ECR repository
+            - *appcontainer
+            - *proxyapicontainer
+            - *proxyadmincontainer
+      - step:
+         name: Deploy
+         image: alpine:latest
+         runs-on:
+           - 'self.hosted'
+           - 'linux'
+           - 'api'
+         size: 1x
+         clone:
+           enabled: false
+         script:
+           # deploy sandbox-ebisusbay-api-arm64-us-east-1 / sandboxapi.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"sandbox\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_api_deploy/pipelines/'
+    testnet:
+      - step: *test
+      - step: *build
+      - step:
+          name: Build containers
+          image: amazon/aws-cli
+          deployment: Testnet
+          services:
+            - docker
+          runs-on:
+            - 'self.hosted'
+            - 'linux'
+            - 'api'
+          size: 1x
+          script:
+            # Install and configure Docker Buildx
+            - *buildx
+            # Login to ECR
+            - *ecrlogin
+            # Build container images and push to ECR repositorys and push to ECR repository
+            - *appcontainer
+            - *proxyapicontainer
+            - *proxyadmincontainer
+      - step:
+         name: Deploy
+         image: alpine:latest
+         runs-on:
+           - 'self.hosted'
+           - 'linux'
+           - 'api'
+         size: 1x
+         clone:
+           enabled: false
+         script:
+           # deploy test-ebisusbay-api-arm64-us-east-1 / testapi.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"testnet\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_api_deploy/pipelines/'
+           # deploy test-ebisusbay-admin-arm64-us-east-1 / testadmin.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"testnet\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_admin_deploy/pipelines/'
+    dev:
+      - step: *test
+      - step: *build
+      - step:
+          name: Build containers
+          image: amazon/aws-cli
+          deployment: Development
+          services:
+            - docker
+          runs-on:
+            - 'self.hosted'
+            - 'linux'
+            - 'api'
+          size: 1x
+          script:
+            # Install and configure Docker Buildx
+            - *buildx
+            # Login to ECR
+            - *ecrlogin
+            # Build container images and push to ECR repositorys and push to ECR repository
+            - *appcontainer
+            - *proxyapicontainer
+            - *proxyadmincontainer
+      - step:
+         name: Deploy
+         image: alpine:latest
+         runs-on:
+           - 'self.hosted'
+           - 'linux'
+           - 'api'
+         size: 1x
+         clone:
+           enabled: false
+         script:
+           # deploy dev-ebisusbay-api-arm64-us-east-1 / api.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"dev\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_api_deploy/pipelines/'
+           # deploy dev-ebisusbay-admin-arm64-us-east-1 / admin.ebisusbay.biz
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"dev\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_admin_deploy/pipelines/'
+    prod:
+      - step: *test
+      - step: *build
+      - step:
+          name: Build containers
+          image: amazon/aws-cli
+          deployment: Production
+          services:
+            - docker
+          runs-on:
+            - 'self.hosted'
+            - 'linux'
+            - 'api'
+          size: 1x
+          script:
+            # Install and configure Docker Buildx
+            - *buildx
+            # Login to ECR
+            - *ecrlogin
+            # Build container images and push to ECR repositorys and push to ECR repository
+            - *appcontainer
+            - *proxyapicontainer
+            - *proxyadmincontainer
+      - step:
+         name: Deploy
+         image: alpine:latest
+         runs-on:
+           - 'self.hosted'
+           - 'linux'
+           - 'api'
+         size: 1x
+         clone:
+           enabled: false
+         script:
+           # deploy prod-ebisusbay-api-arm64-us-east-1 / api.ebisusbay.com
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"prod\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_api_deploy/pipelines/'
+           # deploy prod-ebisusbay-admin-arm64-us-east-1 / admin.ebisusbay.com
+           - apk add --no-cache curl
+           - 'curl -X POST -is -H "Authorization: Basic ${BITBUCKET_API_KEY}" -H "Content-Type: application/json" -d "{\"target\":{\"ref_type\":\"branch\",\"type\":\"pipeline_ref_target\",\"ref_name\":\"prod\"}}" https://api.bitbucket.org/2.0/repositories/ebisusbay/eb_admin_deploy/pipelines/'
+definitions:
+  services:
+    docker:
+      # default memory is 1024MB
+      memory: 3072
+      image: docker:dind

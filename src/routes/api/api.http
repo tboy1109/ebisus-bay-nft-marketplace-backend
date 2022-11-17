@@ -1,0 +1,225 @@
+
+@host =  http://localhost:8080
+@local = http://localhost:8080
+@dev = https://api.dirck.ngrok.io
+@sand = https://sandboxapi.ebisusbay.biz
+@prod = https://api.ebisusbay.com
+
+### Marketplace (Newest)
+GET {{host}}/listings
+    ?state=1
+    &page=1
+    &pageSize=12
+    &sortBy=saleTime
+    &direction=desc
+
+### Marketplace (Unfiltered)
+GET {{host}}/unfilteredlistings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+
+### Marketplace  (Most Rare)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=rank
+    &direction=desc
+
+### Marketplace  (Most Common)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=rank
+    &direction=asc
+
+### Marketplace - (Certain States)
+GET {{host}}/listings
+    ?state=0,1
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+
+### Marketplace - (Certain Listings)
+GET {{dev}}/listings
+    ?listingId=1,10,100,1000,10000
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+
+### Marketplace - (Certain Listings)
+GET {{dev}}/listings
+    ?listingId=79,372,391,399,400
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+
+### Marketplace - (Certain Listings)
+GET {{host}}/listings
+    ?listingId=20346
+
+### Marketplace - (Certain Collection)
+GET {{host}}/listings
+    ?collection=0x939b90c529F0e3a2C187E1b190Ca966a95881FDe
+    &state=0
+    &page=1
+    &pageSize=12
+    &sortBy=price
+    &direction=desc
+
+### Marketplace - (Certain Collections)
+GET {{host}}/listings
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56,0x9dd120ed601c0bdc5725f9cbf529cb70fc0ecafb
+    &page=1
+    &pageSize=12
+    &sortBy=price
+    &direction=desc
+
+### Marketplace - (Certain Collections)
+GET {{host}}/listings
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56,0x9dd120ed601c0bdc5725f9cbf529cb70fc0ecafb
+    &page=1
+    &pageSize=12
+    &sortBy=price
+    &direction=desc
+
+### Marketplace - (Certain Sellers)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+    &seller=0x01218162519c09c60b3baff7b02f789e3bd79cee
+
+### Marketplace - (Certain Tokens within Collection)
+GET {{host}}/listings
+    ?state=0
+    &collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &tokenId=6322,2832,5344
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+
+### Marketplace - (Certain Traits)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=price
+    &direction=desc
+    &collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &traits=%7B%22Background%22%3A%5B%22Grey%22%2C%22Pink%22%5D%2C%22Clothes%22%3A%5B%22Campus+Shirt%22%5D%7D
+
+### Marketplace - (Certain Traits)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+    &collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &traits=%7B%22Mouth+Accessories%22%3A%5B%22Cigar%22%5D%7D
+
+### Marketplace - (Certain Traits)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+    &collection=0xd504ed871d33dbd4f56f523a37dcec86ee918cb6
+    &traits={"Background":["Cryptorockstar's+Daughter+Art"]}
+
+### Marketplace - (Certain Traits)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+    &collection=0xd504ed871d33dbd4f56f523a37dcec86ee918cb6
+    &traits=%7B%22Background%22%3A%5B%22Cryptorockstar%27s+Daughter+Art%22%5D%7D
+
+### Marketplace - (Certain Power Traits)
+GET {{host}}/listings
+    ?state=0
+    &page=1
+    &pageSize=12
+    &sortBy=listingId
+    &direction=desc
+    &collection=0xd504ed871d33dbd4f56f523a37dcec86ee918cb6
+    &powertraits=%7B%22Overall+Speed%22%3A%5B%222%22%5D%2C%22Stamina%22%3A%5B%221%22%2C%222%22%5D%7D
+
+### NFT - (Specific Collection and Token)
+GET {{host}}/nft
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &tokenId=2283
+
+### NFT - (Specific Collection and Token)
+GET {{host}}/nft
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &tokenId=2283,2284
+
+### NFT - (Specific Collection and Token)
+GET {{host}}/nft
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &tokenId=5
+
+### NFT - (Farm to Table Requirement)
+GET {{host}}/nft
+    ?collection=0x89dbc8bd9a6037cbd6ec66c4bf4189c9747b1c56
+    &tokenId=5,6,7,8,9
+
+### meerkat bot death - (oooops)
+GET {{host}}/listings
+    ?collection=0x89dBC8Bd9a6037Cbd6EC66C4bF4189c9747B1C56&state=1&sortBy=listingId&direction=desc
+
+### meerkat bot death - (oooops)
+GET https://api.ebisusbay.com/listings?collection=0x89dBC8Bd9a6037Cbd6EC66C4bF4189c9747B1C56&state=1&sortBy=listingId&direction=desc
+
+### Collections (All Collections)
+GET {{host}}/collections
+    ?sortBy=totalVolume
+    &direction=desc
+
+### Collections (Specific Collection)
+GET {{host}}/collections
+    ?sortBy=totalVolume
+    &direction=desc
+    &collection=0x89dBC8Bd9a6037Cbd6EC66C4bF4189c9747B1C56,0x16134B610f15338B96D8DF52EE63553dD2B013A2
+
+### Marketdata (Ebisusbay)
+GET {{local}}/marketdata
+
+### Auction (Ebisusbay)
+GET {{host}}/auctions
+
+### Auction (Specific Auction)
+GET {{host}}/auctions
+    ?auctionId=5
+
+### Data (Contracts)
+GET {{host}}/data
+    ?name=contracts
+
+### Data (Drops)
+GET {{host}}/data
+    ?name=drops
+
+### Data (Auctions Promo)
+GET {{host}}/data
+    ?name=auctions-promo
+
+### NFT wallet overlay request
+GET {{host}}/listings
+    ?seller=0x247CF321c2AD63941a37F9144Cd392A6D3786f7f
+    &state=0

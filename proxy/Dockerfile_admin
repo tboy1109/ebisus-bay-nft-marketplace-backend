@@ -1,0 +1,14 @@
+FROM nginx:latest
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
+COPY conf.d/admin.conf /etc/nginx/conf.d/admin.conf
+COPY conf.d/security_headers.conf /etc/nginx/conf.d/security_headers.conf
+
+# Install tools
+RUN apt-get update && apt-get install -y curl procps htop
+
+COPY ./entrypoint_admin.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]

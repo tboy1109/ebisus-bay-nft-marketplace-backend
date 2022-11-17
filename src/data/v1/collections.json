@@ -1,0 +1,162 @@
+[
+    {
+      "floorPrice": "80",
+      "averageSalePrice": "118.166666666",
+      "totalVolume": "4963",
+      "numberOfSales": "42",
+      "collection": "0xE4ab77ED89528d90E6bcf0E1Ac99C58Da24e79d5"
+    },
+    {
+      "floorPrice": "460",
+      "averageSalePrice": "258",
+      "totalVolume": "774",
+      "numberOfSales": "3",
+      "collection": "0xCE5caC89E25DBCCD590090994919a5Ef53bBD6C0"
+    },
+    {
+      "floorPrice": "199",
+      "averageSalePrice": "414.82",
+      "totalVolume": "20741",
+      "numberOfSales": "50",
+      "collection": "0x16134B610f15338B96D8DF52EE63553dD2B013A2"
+    },
+    {
+      "floorPrice": "290",
+      "averageSalePrice": "512.46153846153",
+      "totalVolume": "6662",
+      "numberOfSales": "13",
+      "collection": "0x18b73D1f9e2d97057deC3f8D6ea9e30FCADB54D7"
+    },
+    {
+      "floorPrice": "1800",
+      "averageSalePrice": "1998.7108433734",
+      "totalVolume": "165893",
+      "numberOfSales": "83",
+      "collection": "0x8d9232Ebc4f06B7b8005CCff0ca401675ceb25F5",
+      "nftId": 1,
+      "is1155": true
+    },
+    {
+      "floorPrice": "850",
+      "averageSalePrice": "825",
+      "totalVolume": "1650",
+      "numberOfSales": "2",
+      "collection": "0x94fCEDf4e07f1c3906195FA76852675590886Aaa"
+    },
+    {
+      "floorPrice": "230",
+      "averageSalePrice": "501.174550264",
+      "totalVolume": "94721.99",
+      "numberOfSales": "189",
+      "collection": "0xDFab622fC4E5CE1420F83cf38E52312f33849a0A"
+    },
+    {
+      "floorPrice": "300",
+      "averageSalePrice": "862.57281553398",
+      "totalVolume": "88845",
+      "numberOfSales": "103",
+      "collection": "0xAec3ADC72E453ecB6009AA48e0aC967941b30C4E"
+    },
+    {
+      "floorPrice": "200",
+      "averageSalePrice": "158",
+      "totalVolume": "948",
+      "numberOfSales": "6",
+      "collection": "0x68ec010Cf044CbAe1aCc213D043d394E620c641D",
+      "nftId": 1,
+      "is1155": true
+    },
+    {
+      "floorPrice": "120",
+      "averageSalePrice": "86.666666666666",
+      "totalVolume": "260",
+      "numberOfSales": "3",
+      "collection": "0x48879b93AbCE2B69F9792584f8891BCe30C1BF28"
+    },
+    {
+      "floorPrice": "100",
+      "averageSalePrice": "99.5",
+      "totalVolume": "398",
+      "numberOfSales": "4",
+      "collection": "0x527db60A25a5FDf2529815f3cE7AeA4C95078d9c",
+      "nftId": 2,
+      "is1155": true
+    },
+    {
+      "floorPrice": "350",
+      "averageSalePrice": "719.8181818181818",
+      "totalVolume": "71262",
+      "numberOfSales": "99",
+      "collection": "0xbed280E63B3292a5faFEC896F9a0256d12552170"
+    },
+    {
+      "floorPrice": "1999",
+      "averageSalePrice": "1760.8",
+      "totalVolume": "8804",
+      "numberOfSales": "5",
+      "collection": "0x3Bf0a68a03fE82A5D21445f3a2306bB012dd50D9"
+    },
+    {
+      "floorPrice": "250",
+      "averageSalePrice": "650",
+      "totalVolume": "3250",
+      "numberOfSales": "5",
+      "collection": "0xCaa648e8f8fE3D4705BC3D9B0d4d1068509f1014"
+    },
+    {
+      "floorPrice": "250",
+      "averageSalePrice": "225",
+      "totalVolume": "450",
+      "numberOfSales": "2",
+      "collection": "0x6213e64dc1c3c9C56E23516b4853bb36674f6272"
+    },
+    {
+      "floorPrice": "799",
+      "averageSalePrice": "1450",
+      "totalVolume": "15950",
+      "numberOfSales": "11",
+      "collection": "0xEdb2Eb556765F258a827f75Ad5a4d9AEe9eA7118"
+    },
+    {
+      "floorPrice": "299",
+      "averageSalePrice": "246.2",
+      "totalVolume": "3693",
+      "numberOfSales": "15",
+      "collection": "0xf711e40d09BF4709c32eb967243872700fe80CC7"
+    },
+    {
+      "floorPrice": "35",
+      "averageSalePrice": "19.857142857",
+      "totalVolume": "139",
+      "numberOfSales": "7",
+      "collection": "0xE8D59fB0259F440F5f17cE29975F98D728614f18"
+    },
+    {
+      "floorPrice": "180",
+      "averageSalePrice": "NaN",
+      "totalVolume": "0",
+      "numberOfSales": "0",
+      "collection": "0xdc29c27b6adE7b172359EC1746a02B3304e974d8"
+    },
+    {
+      "floorPrice": "425",
+      "averageSalePrice": "511.25",
+      "totalVolume": "20450",
+      "numberOfSales": "40",
+      "collection": "0x64274Fce5bd057E6416f57A5EdC8a3195E153022"
+    },
+    {
+      "floorPrice": "98",
+      "averageSalePrice": "80.9090909",
+      "totalVolume": "890",
+      "numberOfSales": "11",
+      "collection": "0xD961956B319A10CBdF89409C0aE7059788A4DaBb"
+    },
+    {
+      "floorPrice": "150",
+      "averageSalePrice": "250",
+      "totalVolume": "250",
+      "numberOfSales": "1",
+      "collection": "0x03741A724d0E15F8FD052DAa56633a69090D20a3"
+    }
+  ]

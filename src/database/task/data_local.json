@@ -1,0 +1,7 @@
+[
+    { "name": "Market",     "type": 0, "cron": "* * * * *", "scheduled": 0, "recover": 0, "running": 0, "once": 1, "sort": 1 },
+    { "name": "Collection", "type": 0, "cron": "* * * * *", "scheduled": 0, "recover": 0, "running": 0, "once": 1, "sort": 2 },
+    { "name": "Auction",    "type": 0, "cron": "* * * * *", "scheduled": 0, "recover": 0, "running": 0, "once": 1, "sort": 3 },
+    { "name": "Calculate",  "type": 0, "cron": "* * * * *", "scheduled": 1, "recover": 0, "running": 0, "once": 1, "sort": 4 }
+]
+
